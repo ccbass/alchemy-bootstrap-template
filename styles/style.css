@@ -11,7 +11,8 @@ body {
 
 header {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
     background-color: var(--color3);
     height: var(--header-height);
     box-shadow: var(--shadow);
@@ -23,6 +24,10 @@ header img {
 
 .gutter-right {
     margin-right: 20px;
+}
+
+.gutter-left {
+    margin-left: 20px;
 }
 
 footer {
